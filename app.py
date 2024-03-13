@@ -145,4 +145,4 @@ def main(page:flt.Page):
     page.go(page.route)
     
     
-flt.app(target=main,port=56656,view=flt.WEB_BROWSER)
+flt.app(target=main,view=flt.WEB_BROWSER)
